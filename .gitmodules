@@ -16,3 +16,6 @@
 [submodule "external/BIGTREETECH-EBB"]
 	path = external/BIGTREETECH-EBB
 	url = https://github.com/bigtreetech/EBB.git
+[submodule "external/BIGTREETECH-SKR-Pico"]
+	path = external/BIGTREETECH-SKR-Pico
+	url = https://github.com/bigtreetech/SKR-Pico.git
