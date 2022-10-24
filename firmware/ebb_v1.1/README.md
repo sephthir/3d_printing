@@ -28,8 +28,7 @@ available, I'm documenting it here for reproducibility.
 ## Building (Optional)
 
 A prebuilt copy of the firmware using the given configuration file is provided
-at [`klipper.bin`](./klipper.bin). These instructions are for rebuilding this
-file.
+at [`klipper.bin`](./klipper.bin).
 
 > Before starting these steps, make sure you've updated everything using
 > [`../update.sh`](../update.sh).
