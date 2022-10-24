@@ -1,0 +1,18 @@
+[submodule "external/EBB"]
+	path = external/EBB
+	url = https://github.com/bigtreetech/EBB.git
+[submodule "external/klipper"]
+	path = external/klipper
+	url = https://github.com/Klipper3d/klipper.git
+[submodule "external/BIGTREETECH-SKR-mini-E3"]
+	path = external/BIGTREETECH-SKR-mini-E3
+	url = https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3.git
+[submodule "external/BIGTREETECH-OCTOPUS-Pro"]
+	path = external/BIGTREETECH-OCTOPUS-Pro
+	url = https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro.git
+[submodule "external/BIGTREETECH-OCTOPUS-V1.0"]
+	path = external/BIGTREETECH-OCTOPUS-V1.0
+	url = https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0.git
+[submodule "external/BIGTREETECH-EBB"]
+	path = external/BIGTREETECH-EBB
+	url = https://github.com/bigtreetech/EBB.git
