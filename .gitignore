@@ -1,3 +1,4 @@
 firmware/*/klipper
 *.swo
 *.swp
+.DS_STORE
