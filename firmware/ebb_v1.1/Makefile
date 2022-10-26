@@ -19,6 +19,10 @@ sync:
 	rm -f ./klipper/.config
 	ln -s ../config ./klipper/.config
 
+.PHONY: pristine
+pristine:
+	rm -rf ./klipper
+
 .PHONY: flash
 flash: all
 	dfu-util -a 0 -D ./klipper.bin -s 0x08000000

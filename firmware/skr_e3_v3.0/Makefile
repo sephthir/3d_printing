@@ -19,3 +19,7 @@ sync:
 	rm -f ./klipper/.config
 	ln -s ../config ./klipper/.config
 
+.PHONY: pristine
+pristine:
+	rm -rf ./klipper
+
