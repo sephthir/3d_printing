@@ -19,3 +19,6 @@
 [submodule "external/BIGTREETECH-SKR-Pico"]
 	path = external/BIGTREETECH-SKR-Pico
 	url = https://github.com/bigtreetech/SKR-Pico.git
+[submodule "external/BIGTREETECH-U2C"]
+	path = external/BIGTREETECH-U2C
+	url = https://github.com/bigtreetech/U2C.git
