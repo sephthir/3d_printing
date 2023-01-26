@@ -22,3 +22,6 @@
 [submodule "external/BIGTREETECH-U2C"]
 	path = external/BIGTREETECH-U2C
 	url = https://github.com/bigtreetech/U2C.git
+[submodule "external/MKS-THR36-THR42-UTC"]
+	path = external/MKS-THR36-THR42-UTC
+	url = https://github.com/makerbase-mks/MKS-THR36-THR42-UTC.git

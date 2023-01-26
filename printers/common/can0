@@ -1,0 +1,6 @@
+auto can0
+  iface can0 inet manual
+  pre-up /sbin/ip link set can0 type can bitrate 500000
+  pre-up /sbin/ip link set can0 txqueuelen 1000
+  up /sbin/ip link set can0 up
+  down /sbin/ip link set can0 down
