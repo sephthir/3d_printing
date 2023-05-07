@@ -6,7 +6,7 @@ configuration for Klipper, nothing fancy, but stored here for convenience.
 
 ## Printers
 
-    - [TronXY X5SA-400 Pro conversion](../../tronxy_x5sa-400_pro)
+- [TronXY X5SA-400 Pro conversion](../../tronxy_x5sa-400_pro)
 
 ## Files
 
