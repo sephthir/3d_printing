@@ -1,0 +1,1 @@
+include ../common/klipper.mk

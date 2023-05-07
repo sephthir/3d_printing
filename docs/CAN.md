@@ -55,6 +55,10 @@ to the primary `120R` header and whichever USB port's `120R` and `VBUS` headers
 separate pair of terminals on the PSU) to the screw-terminal blocks on the end,
 and connect the relevant other `CAN_OUT` interface on the righthand side.
 
+### MakerBase UTC v1.0
+
+> _FIXME_
+
 ## Control Boards
 
 ### BTT EBB36 v1.1
@@ -64,10 +68,21 @@ brings 24V power along via the MOLEX connector on the board. **IMPORTANT:** the
 pins, clockwise from upper left are, in order: `L`, `H`, `V+`, `V-`. This is not
 well documented.
 
+### BTT EBB42 v1.1
+
+> _FIXME_
+
 ### BTT SKR Mini E3 v3.0
 
 Thee easiest way to connect this board is via USB serial; however, you can also
 configure Klipper to communicate using CAN bus over the USB port
 (`PA11`/`PA12`), which generally requires using a BTT UC2 adapter.
 
+### MakerBase THR36
+
+> _FIXME_
+
+### MakerBase THR42
+
+> _FIXME_
 

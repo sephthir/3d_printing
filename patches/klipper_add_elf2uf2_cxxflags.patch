@@ -1,0 +1,12 @@
+diff --color -Naur klipper.orig/src/rp2040/Makefile klipper/src/rp2040/Makefile
+--- klipper.orig/src/rp2040/Makefile	2023-02-19 02:50:54
++++ klipper/src/rp2040/Makefile	2023-02-19 02:47:56
+@@ -45,7 +45,7 @@
+ 
+ $(OUT)lib/rp2040/elf2uf2/elf2uf2: lib/rp2040/elf2uf2/main.cpp
+ 	@echo "  Building $@"
+-	$(Q)g++ -g -O -Ilib/rp2040 $< -o $@
++	$(Q)g++ $(CXXFLAGS) -g -O -Ilib/rp2040 $< -o $@
+ 
+ $(OUT)klipper.uf2: $(OUT)klipper.elf $(OUT)lib/rp2040/elf2uf2/elf2uf2
+ 	@echo "  Creating uf2 file $@"
